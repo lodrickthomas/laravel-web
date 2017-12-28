@@ -33,7 +33,7 @@ $contact -> title = $request -> title;
 // save data
 $contact -> save();
 // notify user if there is any error when sending data to the database
-Session::flash('success','Message Sent!');
+Session::flash('success','Thank you! I received your message!');
 // redirect user to home page
 return redirect('/');
 }
