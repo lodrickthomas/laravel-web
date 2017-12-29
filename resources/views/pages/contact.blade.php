@@ -38,7 +38,8 @@
 
 
   <div class="col-md-6 offset-md-3" style="margin-top:20px;">
-    {{ Form::submit('Submit', ['class'=>'btn btn-primary btn-md btn-block'] ) }}
+    {{-- i changed submit button from btn-primary & md to sm & btn-out-outline-primary, this can be changed if necessary... --}}
+    {{ Form::submit('Submit', ['class'=>'btn btn-outline-primary btn-sm btn-block'] ) }}
   </div>
   {!! Form::close() !!}
 

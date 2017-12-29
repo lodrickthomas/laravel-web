@@ -5,7 +5,8 @@
 @section('content')
 
   <section class="title-middle">
-    This is <span id="lod">Lodrick</span>
+    <p id="large-words" >  This is <span id="lod">Lodrick</span></p>
+    <p id="small-words">An Engineer, A programmer, and a persom who deeply believe in passion!</p>
 
     <div class="network_links">
       <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
