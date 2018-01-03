@@ -65,8 +65,10 @@ ul li a:hover{
 
 }
 .network_links{
-
   margin-top: 10px;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  iteration-count: 2;
 }
 .network_links a{
   padding: 10px;
@@ -86,11 +88,19 @@ ul li a:hover{
 
 #small-words{
   font-size: 12px;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  iteration-count: 2;
+
 }
 #large-words{
   font-size: 40px;
-
+  /* animate.css */
+  animation-duration: 3s;
+  animation-delay: 0s;
+  iteration-count: 2;
 }
+
 .text-center{
   font-size: 17px;
 }
